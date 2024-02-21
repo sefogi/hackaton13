@@ -1,0 +1,31 @@
+.container-fluid{
+  display: flex;
+  flex-direction: column; 
+  max-width: 900px;
+  margin: 0 auto;
+}
+/* 
+main{
+  display: flex;
+  width: 100%;
+}
+
+.products{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  place-content: center;
+  gap: 30px;
+}
+
+.product{
+  text-align: center;
+  margin: 1rem;
+}
+
+.product img { 
+  border-radius: 8px;
+  margin-top: 16px;
+  width: 100%;
+  object-fit: cover;
+ } */
