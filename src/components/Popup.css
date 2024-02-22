@@ -1,10 +1,3 @@
-
-/*body {
-  margin: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-*/
 .overlay {
   position: fixed;
   top: 0;
@@ -14,7 +7,6 @@
   background: rgba(0, 0, 0, 0.8);
   z-index: 999;
 }
-
 
 .popup {
   position: fixed;
@@ -27,8 +19,8 @@
   padding: 20px;
   z-index: 1000;
   outline: 3px #b45e72 solid;
-  
 }
+
 @media screen and (min-width: 768px) {
   .popup {
     position: fixed;
@@ -41,11 +33,11 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows:88% 10%;
   row-gap: 1em;
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 15px;
   align-content: unset;
   z-index: 1000;
- }}
+}}
 
   .popup img {
     max-height: 100%; 
@@ -99,14 +91,36 @@
 .content {
   font-size: 90%;
   margin-top: 2%;
+  color: black;
+  margin-left: 10px;
 }
 
 .popup button {
   background-color: white;
   border: none;
-  color: #bb2649;
   position: relative;
   margin-bottom: 2%;
 }
 
-  
+.popup .buttonModal a{
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(to bottom right, #ff0095, #00DFF0);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.popup .buttonModal{
+  margin-bottom: 20px;
+}
+
+.img .price{
+  color: black;
+  margin: 10px;
+}
+
+.text h3{
+  margin: 20px 0;
+  color: #F0008E;
+}
