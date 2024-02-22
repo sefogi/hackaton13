@@ -13,7 +13,7 @@ header {
 	color: #eee;
 	/* background-color: var(--mainColor); */
 	/* color: var(--textColor); */
-	z-index: 1000; /* Asegúrate de que esté en la parte superior de otros elementos */
+	z-index: 1000; 
 }
 
 .linkHolder{
@@ -113,7 +113,22 @@ nav {
 	margin-left: 5px;
 	transition: transform 0.2s ease-in-out;
 }
+
+@media only screen and (max-width: 1200px) {
+	nav a {
+		font-size: 12px;
+	}
+	.searchInput {
+		font-size: 12px;
+		width: 130px;
 	
+	}
+	.active {
+		color: #F0008E;
+		font-size: 16px;
+		
+	}
+}
 
 @media only screen and (max-width: 1024px) {
 	header .nav-btn {
