@@ -6,6 +6,7 @@ import "./Contact.css"
 export const Contact = () => {
     return (
         <Container className="col-sm-4 contactContainer">
+            <h1>Contact us:</h1>
             <Form className='contactForm'>
                 <Form.Group className="mb-4" controlId="formBasicEmail">
                     <Form.Label>Fullname:</Form.Label>
@@ -19,11 +20,8 @@ export const Contact = () => {
                     </Form.Text>
                 </Form.Group>
                 <Form.Group className="mb-4" controlId="formBasicPassword">
-                    <Form.Label className='messageInput'>Message:</Form.Label>
-                    <Form.Control type="text" placeholder="Write your message here" />
-                </Form.Group>
-                <Form.Group className="mb-4" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
+                    <Form.Label >Message:</Form.Label>
+                    <Form.Control  as="textarea" rows={5} placeholder="Write your message here" />
                 </Form.Group>
                 <Button variant="info" type="submit">
                 Submit
