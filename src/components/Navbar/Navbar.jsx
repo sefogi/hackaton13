@@ -1,12 +1,14 @@
 
 import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import "./Navbar.css";
-import logo2 from '../../assets/Images/logo2.png';
-import { Link } from "react-router-dom";
+import logo from '../../assets/Images/logo.svg';
+//import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
-function Navbar() {
+
+export const Navbar = () => {
 	const navRef = useRef();
 
 	const showNavbar = () => {
@@ -17,17 +19,34 @@ function Navbar() {
 
 	return (
 		<header>
-			<img src={logo2} alt="Logo Modas Chic" />
-			<nav ref={navRef} className="responsive_nav">
-				<Link to="/" onClick={showNavbar}>Inicio</Link>
-				<Link to="/control-productos" onClick={showNavbar}>Control de productos</Link>
-				{/* <a href="/#">Calendar</a> */}
-			</nav>
-			<button
-				className="nav-btn"
-				onClick={showNavbar}>
-				<FaBars />
-			</button>
+			<img className="logo" src={logo} alt="Logo Modas Chic" />
+
+			<div className="linkHolder">
+				<nav ref={navRef} className="responsive_nav">
+					<NavLink to="/" onClick={showNavbar}>Home</NavLink>
+					<NavLink to="/control-productos" onClick={showNavbar}>Productos</NavLink>
+					<NavLink to="" onClick={showNavbar}>Quién somos</NavLink>
+					
+			<form action="#">
+				<label>
+					<input className="searchInput"
+						type="text"
+						id="search"
+						placeholder="Search"
+					></input>
+					<button type="submit" className="searchBtn">Go</button>
+				</label>
+				
+			</form>
+
+				</nav>
+				<button type="button" className="loginBtn">Log in</button>
+				<button
+					className="nav-btn"
+					onClick={showNavbar}>
+					<FaBars />
+				</button>
+			</div>
 		</header>
 	);
 }
