@@ -6,6 +6,7 @@ import ProviderDashboard from "../pages/ProviderDashboard";
 import AvailableProducts from "../pages/AvailableProducts"
 import AboutUs from "../pages/AboutUs"
 import Contact from "../pages/Contact"
+import Payment from "../pages/Payment"
 
 // import ProductInfo from "../components/ProductInfo";
 // import EditProduct from "../pages/EditProduct";
@@ -41,15 +42,13 @@ export const router = createBrowserRouter([
             {
                 path: "/Payment",
                 element: <Payment />,
-                path: "/Contact",
-                element: <Contact />,
+                
                 // loader: fetchProducts,
             },
-            // {
-            //     path: "/products",
-            //     element: <Dashboard />,
-            //     // loader: fetchProducts,
-            // },
+            {
+                path: "/Contact",
+                element: <Contact />,                // loader: fetchProducts,
+            },
             // {
             //     path: "products/:id",
             //     element: <ProductInfo />,
