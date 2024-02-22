@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import "./Card.css";
 import OpenModalForm from "../OpenModalForm";
-import Popup from "../Popup";
+import ProductDetails from "../ProductDetails";
 
 const Card = ({ product }) => {
   const { isModalOpen, openModal, closeModal } = OpenModalForm();
@@ -26,10 +26,10 @@ const Card = ({ product }) => {
       </div>
       <button className="details" onClick={handlerShow}>Ver Detalles</button>
       { isModalOpen && 
-          <Popup
-           isOpen={isModalOpen} 
-           onClose={closeModal} 
-           productId={product.id}
+          <ProductDetails
+          isOpen={isModalOpen} 
+          onClose={closeModal} 
+          productId={product.id}
       /> }
     </div>
     </>
