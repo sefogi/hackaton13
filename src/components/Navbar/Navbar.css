@@ -21,8 +21,8 @@ header {
 	justify-content: space-between;
 }
 
-img {
-	height: 100%;
+.logo {
+	height: 90%;
 	width: auto;
 	margin-left: 5%;
 }
@@ -112,11 +112,8 @@ nav {
     height: 39px;
 	margin-left: 5px;
 	transition: transform 0.2s ease-in-out;
-
-
-
 }
-	/* } */
+	
 
 @media only screen and (max-width: 1024px) {
 	header .nav-btn {

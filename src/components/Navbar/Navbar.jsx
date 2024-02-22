@@ -19,7 +19,7 @@ function Navbar() {
 
 	return (
 		<header>
-			<img src={logo} alt="Logo Modas Chic" />
+			<img className="logo" src={logo} alt="Logo Modas Chic" />
 
 			<div className="linkHolder">
 				<nav ref={navRef} className="responsive_nav">
