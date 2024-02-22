@@ -34,7 +34,7 @@ function Top5products() {
         <Card.Body>
         <Card.Title>Top 2. <strong>Minerales Lunares Místicos</strong></Card.Title>
           <Card.Text>
-          Piedra lunar extraída de las profundidades de los cráteres lunares, cargada de energía cósmica y propiedades curativas. Estos minerales tienen cualidades milagrosas, capaces de traer armonía y bienestar.
+          Piedra lunar extraída de los cráteres lunares, cargada de energía cósmica y propiedades curativas. Estos minerales tienen cualidades milagrosas, capaces de traer armonía y bienestar.
           </Card.Text>
         </Card.Body>
         <Card.Footer>
