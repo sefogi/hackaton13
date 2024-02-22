@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { Layout } from "../components/Layout"
 import ProviderDashboard from "../pages/ProviderDashboard";
 import { AvailableProducts } from "../pages/AvailableProducts"
-
+import {Payment} from "../pages/Payment"
 // import ProductInfo from "../components/ProductInfo";
 // import EditProduct from "../pages/EditProduct";
 
@@ -23,6 +23,11 @@ export const router = createBrowserRouter([
             {
                 path: "/ProviderDashboard",
                 element: <ProviderDashboard />,
+                // loader: fetchProducts,
+            },
+            {
+                path: "/Payment",
+                element: <Payment />,
                 // loader: fetchProducts,
             },
             // {
