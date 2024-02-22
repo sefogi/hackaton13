@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 
 
 // eslint-disable-next-line react/prop-types
-const Popup = ({ productId, isOpen, onClose}) => {
+const ProductDetails = ({ productId, isOpen, onClose}) => {
 
   const { getProductsById, productById } = useProducts()
 
@@ -35,8 +35,8 @@ const Popup = ({ productId, isOpen, onClose}) => {
                 <p className='price'>{productById.price}</p>
                 </div>
               <p className='content'>{productById.description}</p>
-             </div>
-         
+            </div>
+        
           <button onClick ={onClose}>Cerrar
             </button>
           </div>
@@ -48,4 +48,4 @@ const Popup = ({ productId, isOpen, onClose}) => {
   );
 };
 
-export default Popup;
+export default ProductDetails;

@@ -18,7 +18,7 @@ function ProductsDashboard() {
               <div className="spinner-border" role="status">
                 <span className="visually-hidden">Loading...</span>
               </div>
-             </article>
+            </article>
           :<Products products={products}/>
         } 
     </>
