@@ -1,9 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 // import Dashboard from "../pages/Dashboard";
 import { Layout } from "../components/Layout"
+import Home from "../pages/Home"
 import ProviderDashboard from "../pages/ProviderDashboard";
-import { AvailableProducts } from "../pages/AvailableProducts"
-import {Payment} from "../pages/Payment"
+import AvailableProducts from "../pages/AvailableProducts"
+import AboutUs from "../pages/AboutUs"
+
 // import ProductInfo from "../components/ProductInfo";
 // import EditProduct from "../pages/EditProduct";
 
@@ -15,9 +17,19 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Layout />,
         children: [
-                        {
+            {
                 path: "/",
+                element: <Home />,
+                // loader: fetchProducts,
+            },
+            {
+                path: "/AvailableProducts",
                 element: <AvailableProducts />,
+                // loader: fetchProducts,
+            },
+            {
+                path: "/AboutUs",
+                element: <AboutUs />,
                 // loader: fetchProducts,
             },
             {
