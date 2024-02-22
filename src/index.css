@@ -10,6 +10,11 @@
   box-sizing: border-box;
 } 
 
+body{
+    background-color: #060017;
+
+}
+
 /* :root {
   --mainColor: #0f0f0f;
 	--mainColorLight: #5767aa;

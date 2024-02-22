@@ -103,7 +103,7 @@ function ProductList({ products }) {
   const { isModalOpen, openModal, closeModal } = OpenModalForm();
 
   return (
-    <section className="container">
+    <section className="productsContainer">
       <button className="btn__Addnew" onClick={openModal}>
         Agregar Producto
       </button>
