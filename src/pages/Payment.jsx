@@ -9,6 +9,7 @@ import "../pages/payment.css"
 export const Payment = () => {
     return (
       <Container>
+        <row>
         <Col>
             <Form className="payForm">
             <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -31,6 +32,7 @@ export const Payment = () => {
             </Button>
             </Form>
         </Col>
+        </row>
       </Container>
     );
 }
