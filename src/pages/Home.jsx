@@ -1,6 +1,19 @@
+import React from "react";
+import Top5products from "../components/addProductsForm/top5products/Top5products";
+import Brands from "../components/brands/Brands.jsx";
+import Footer from "../components/Footer/Footer.jsx";
+
+
+
+
 export const Home = () => {
     return (
-        <div className="prueba">Home</div>
+        <>
+        <Top5products/>
+        <Brands/>
+        <Footer/>
+        </>
+        
     )
 }
 
