@@ -1,0 +1,15 @@
+.contactContainer{
+    margin-top: 200px;
+}
+/* 
+.contactForm{
+    background-color: #060017;
+} */
+/* 
+.form-control {
+    background-color: $red;
+} */
+
+.custom .form-control{
+    background-color: red;
+}
