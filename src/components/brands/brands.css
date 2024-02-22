@@ -24,3 +24,17 @@
   p{
     color: aqua;
   }
+
+  @media screen and (max-width: 430px) {
+    .brands-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .brand-item {
+        max-width: none; 
+        margin: 10px 0; 
+    }
+    .brand-item img {
+        display: none; 
+    }
+}
