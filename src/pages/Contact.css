@@ -1,6 +1,14 @@
 .contactContainer{
     margin-top: 200px;
+    background-color: #060017;
+    border: 1px solid #F0008E;
+    margin: 200px auto;
+    border-radius: 10px;
+    align-items: center;
+    height: 600px;
+    padding: 3rem;
 }
+
 /* 
 .contactForm{
     background-color: #060017;
@@ -10,6 +18,15 @@
     background-color: $red;
 } */
 
-.custom .form-control{
-    background-color: red;
+
+.contactForm, .contactForm .form-control, .contactForm .mb-3{
+    color: #fff;
+    background-color: #060017;
+}
+
+
+
+.contactForm .btn-info{
+    background-color: #00DFF0;
+    padding: 7px 30px;
 }
