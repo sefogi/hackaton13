@@ -1,0 +1,45 @@
+body {
+    background-color: #060017;
+}
+.heroHolder {
+    height: 100vh;
+    width: auto;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("./src/assets/Images/logo.png");
+   
+} 
+
+ @media only screen and (max-width: 1304px){
+    .heroHolder {
+        background-size: contain;
+       
+        
+    }
+} 
+ @media only screen and (max-width: 1200px){
+    .heroHolder {
+        background-size: contain;
+       
+         height: 400px; 
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .heroHolder {
+      
+         background-image: url("./src/assets/Images/hero-600.png");
+    }
+
+} 
+
+@media only screen and (max-width: 350px){
+    .heroHolder {
+      
+         background-image: url("./src/assets/Images/hero-350.png");
+    }
+
+} 
