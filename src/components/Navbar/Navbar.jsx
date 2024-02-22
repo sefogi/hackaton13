@@ -1,6 +1,6 @@
 
 import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import "./Navbar.css";
 import logo from '../../assets/Images/logo.svg';
 //import { Link } from "react-router-dom";
@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 
 
-function Navbar() {
+export const Navbar = () => {
 	const navRef = useRef();
 
 	const showNavbar = () => {

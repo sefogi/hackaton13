@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 import "./EditForm.css";
 import { useProducts } from "../../hooks/useProducts";
-import { useProductContext } from "../../context/productContext";
+import { useProductContext } from "../../context/Product.Context";
 
 const EditFormOpen = ({ isOpen, onClose, id }) => {
   const { getProductsById, productById } = useProducts();

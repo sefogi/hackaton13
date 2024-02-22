@@ -1,39 +1,49 @@
 import { createBrowserRouter } from "react-router-dom";
-import Dashboard from "../pages/Dashboard";
-import ProductInfo from "../components/ProductInfo";
-import EditProduct from "../pages/EditProduct";
+// import Dashboard from "../pages/Dashboard";
+import { Layout } from "../components/Layout"
+import ProviderDashboard from "../pages/ProviderDashboard";
+import { AvailableProducts } from "../pages/AvailableProducts"
+
+// import ProductInfo from "../components/ProductInfo";
+// import EditProduct from "../pages/EditProduct";
 
 // import { productHandler } from "../handlers/productHandler";
-import CreateProduct from "../pages/CreateProduct";
+// import CreateProduct from "../pages/CreateProduct";
 
 export const router = createBrowserRouter([
     {
         path: "/",
+        element: <Layout />,
         children: [
-            {
+                        {
                 path: "/",
-                element: <Dashboard />,
+                element: <AvailableProducts />,
                 // loader: fetchProducts,
             },
             {
-                path: "/products",
-                element: <Dashboard />,
+                path: "/ProviderDashboard",
+                element: <ProviderDashboard />,
                 // loader: fetchProducts,
             },
-            {
-                path: "products/:id",
-                element: <ProductInfo />,
-                // loader: fetchProduct,
-            },
-            {
-                path: "newProduct",
-                element: <CreateProduct />,
-            },
-            {
-                path: "editProduct/:id",
-                element: <EditProduct />,
-                // loader: fetchProduct
-            },
+            // {
+            //     path: "/products",
+            //     element: <Dashboard />,
+            //     // loader: fetchProducts,
+            // },
+            // {
+            //     path: "products/:id",
+            //     element: <ProductInfo />,
+            //     // loader: fetchProduct,
+            // },
+            // {
+            //     path: "newProduct",
+            //     element: <CreateProduct />,
+            // },
+            // {
+            //     path: "editProduct/:id",
+            //     element: <EditProduct />,
+            //     // loader: fetchProduct
+            // },
 
         ],
     },
