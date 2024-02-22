@@ -66,12 +66,12 @@ const AddForm = ({ isOpen, onClose }) => {
   }
 
   return (
-    <div className="modal-overlay">
+    <div className="modal_overlay">
       <form
         onSubmit={(e) => {
           handleSubmit(e);
         }}
-        className="modal"
+        className="modal1"
       >
         <div>
           <h4 className="titles">Añadir imagen</h4>

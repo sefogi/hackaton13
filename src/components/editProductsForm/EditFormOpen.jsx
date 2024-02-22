@@ -93,7 +93,7 @@ const EditFormOpen = ({ isOpen, onClose, id }) => {
 
   return (
     <div className="modal-overlay">
-      <form className="modal" onSubmit={(e)=>handleSubmit(e)}>
+      <form className="modal1" onSubmit={(e)=>handleSubmit(e)}>
         <div>
           <h4 className="titles">Añadir imagen</h4>
           <input
