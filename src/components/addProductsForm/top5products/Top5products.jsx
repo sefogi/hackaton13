@@ -62,7 +62,7 @@ function Top5products() {
         <Card.Body>
         <Card.Title>Top 4. <strong>Polvo Lunar Estelar</strong></Card.Title>
           <Card.Text>
-          Polvo lunar micronizado, recolectado de las llanuras de la Luna. Con propiedades únicas, este polvo puede ser utilizado en una variedad de aplicaciones, desde rituales espirituales hasta tratamientos de belleza avanzados.
+          Polvo lunar micronizado, recolectado de las llanuras. Con propiedades únicas, puede ser utilizado en una variedad de aplicaciones, desde rituales espirituales hasta tratamientos de belleza.
           </Card.Text>
         </Card.Body>
         <Card.Footer>
