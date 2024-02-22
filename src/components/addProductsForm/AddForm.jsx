@@ -2,7 +2,7 @@
 import { useState } from "react";
 import "./AddForm.css";
 import { v4 as uuidv4 } from "uuid";
-import { useProductContext } from "../../context/productContext";
+import { useProductContext } from "../../context/Product.Context";
 
 const AddForm = ({ isOpen, onClose }) => {
   const { getProducts } = useProductContext();

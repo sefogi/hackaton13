@@ -4,8 +4,8 @@ import { FaRegEdit, FaRegTrashAlt } from "react-icons/fa";
 import OpenModalForm from "./OpenModalForm";
 import EditFormOpen from "./editProductsForm/EditFormOpen";
 import AddForm from "./addProductsForm/AddForm";
-import "../pages/products.css";
-import { useProductContext } from "../context/productContext";
+import "./products.css";
+import { useProductContext } from "../context/Product.Context";
 
 function ProductRow({ product }) {
   const { isModalOpen, openModal, closeModal } = OpenModalForm();
