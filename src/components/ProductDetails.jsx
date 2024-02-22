@@ -27,18 +27,16 @@ const ProductDetails = ({ productId, isOpen, onClose}) => {
           <div className='popup'>
             
             <div className='img'>
-              <img src={productById.image} alt={productById.name} /> </div>
+              <img src={productById.image} alt={productById.name} />
+              <p className='price'>{productById.price}</p>
+            </div>
             <div className='text'>
               <h3>{productById.title}</h3>
-              <div className='subtitle'>
-                <p className='category'>{productById.category}</p>
-                <p className='price'>{productById.price}</p>
-                </div>
               <p className='content'>{productById.description}</p>
             </div>
         
-          <button onClick ={onClose}>Cerrar
-            </button>
+            <button className='buttonModal'><a href='/Payment'>Buy Now</a></button>
+            <button className='buttonModal'><a href='/Contact'>Contact us</a></button>
           </div>
         </>
       )}

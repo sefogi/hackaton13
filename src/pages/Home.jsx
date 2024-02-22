@@ -1,23 +1,20 @@
 import { Hero } from "../components/HeroImg/Hero"
-import Navbar from "../components/Navbar/Navbar"
 import React from "react";
+import Stack from 'react-bootstrap/Stack';
 import Top5products from "../components/addProductsForm/top5products/Top5products";
 import Brands from "../components/brands/Brands.jsx";
-import Footer from "../components/Footer/Footer.jsx";
-
-
-
+import "./Home.css"
 
 export const Home = () => {
     return (
-        <>
-        <Navbar />
+        
+        <Stack gap={5} className='homeBody'>
         <Hero/>
         <Top5products/>
+        <br></br>
+        <br></br>
         <Brands/>
-        <Footer/>
-        </>
-        
+        </Stack>
     )
 }
 

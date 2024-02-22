@@ -3,17 +3,17 @@ import CardGroup from 'react-bootstrap/CardGroup';
 import { BsCartFill } from 'react-icons/bs';
 import Button from 'react-bootstrap/Button';
 import './top5products.css'
-import agua1 from "../../assets/Images/agua1.png";
-import piedra8 from "../../assets/Images/piedra8.png";
-import collar4 from "../../assets/Images/collar4.png";
-import polvo3 from "../../assets/Images/polvo3.png";
-import cuadro3 from "../../assets/Images/cuadro3.png";
+import agua1 from "../../../assets/Images/agua1.png";
+import piedra8 from "../../../assets/Images/piedra8.png";
+import collar4 from "../../../assets/Images/collar4.png";
+import polvo3 from "../../../assets/Images/polvo3.png";
+import cuadro3 from "../../../assets/Images/cuadro3.png";
 
 
 function Top5products() {
   return (
     <>
-    <h1 className='topTitle'>Nuestros productos más populares...</h1>
+    <h1>Nuestros productos más populares...</h1>
     <CardGroup>
       <Card>
         <Card.Img variant="top" src={agua1} />
