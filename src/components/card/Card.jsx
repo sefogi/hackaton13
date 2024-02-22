@@ -20,7 +20,7 @@ const Card = ({ product }) => {
       <div className="description">
         <h3>{product.title}</h3>
         <div className="catprice">
-          <p className="category">{product.category}</p>
+          {/* <p className="category">{product.category}</p> */}
           <p className="price">{product.price}</p>
         </div>
       </div>

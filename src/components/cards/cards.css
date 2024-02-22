@@ -3,10 +3,9 @@
   margin-top: 100px;
   padding: 0;
   display: grid;
-  width: 100%;
+  width: 90%;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 10px;
-
+  gap: 30px;
 }
 
 .productItem {
@@ -14,7 +13,6 @@
   flex: column;
   border: 1.5px #b45e72 solid;
   justify-content: center;
-
 }
 
 
@@ -23,6 +21,4 @@
     grid-template-columns: repeat(4, 1fr);}
   .productItem {
   height:450px; }
-
-
 }
