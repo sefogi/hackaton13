@@ -30,7 +30,7 @@ const Brands = () => {
       </div>
       <div className="brand-item">
         <img src={cuadro2} alt="Brand 4" />
-        <p>Moonstone Marvels</p>
+        <p>LunarCanvas Creations</p>
       </div>
     </div>
     </>

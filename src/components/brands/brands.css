@@ -14,3 +14,13 @@
   .brand-item img {
     max-width: 100%; 
   }
+
+  h2{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+  }
+
+  p{
+    color: aqua;
+  }
