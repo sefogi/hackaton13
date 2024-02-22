@@ -1,9 +1,9 @@
 import { useEffect } from "react"
 // import { useProducts } from "../hooks/useProducts"
-import { Products } from "../components/ProductList"
-import { useProductContext } from "../context/productContext"
+import { Products } from "./ProductList"
+import { useProductContext } from "../context/Product.Context"
 
-function ProductsDashboard() {
+export const ProductsDashboard = () => {
   const { products, loading, getProducts  } = useProductContext()
   
   useEffect(() => {

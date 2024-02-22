@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 import "./EditForm.css";
 import { useProducts } from "../../hooks/useProducts";
-import { useProductContext } from "../../context/productContext";
+import { useProductContext } from "../../context/Product.Context";
 
 const EditFormOpen = ({ isOpen, onClose, id }) => {
   const { getProductsById, productById } = useProducts();
@@ -93,7 +93,7 @@ const EditFormOpen = ({ isOpen, onClose, id }) => {
 
   return (
     <div className="modal-overlay">
-      <form className="modal" onSubmit={(e)=>handleSubmit(e)}>
+      <form className="modal2" onSubmit={(e)=>handleSubmit(e)}>
         <div>
           <h4 className="titles">Añadir imagen</h4>
           <input

@@ -10,6 +10,11 @@
   box-sizing: border-box;
 } 
 
+body{
+    background-color: #060017;
+
+}
+
 /* :root {
   --mainColor: #0f0f0f;
 	--mainColorLight: #5767aa;
@@ -17,4 +22,16 @@
 	--textColor: #eee;
   font-family: "Titillium Web", sans-serif;
 } */
+
+ /* este selector es una prueba*/
+
+.prueba{
+	background-color: red;
+	margin-top: 200px;
+}
+
+.prueba2{
+	background-color: red;
+	margin-top: 200px;
+}
 

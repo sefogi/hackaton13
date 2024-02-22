@@ -1,6 +1,6 @@
 
 import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import "./Navbar.css";
 import logo from '../../assets/Images/logo.svg';
 //import { Link } from "react-router-dom";
@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 
 
-function Navbar() {
+export const Navbar = () => {
 	const navRef = useRef();
 
 	const showNavbar = () => {
@@ -24,8 +24,8 @@ function Navbar() {
 			<div className="linkHolder">
 				<nav ref={navRef} className="responsive_nav">
 					<NavLink to="/" onClick={showNavbar}>Home</NavLink>
-					<NavLink to="/control-productos" onClick={showNavbar}>Productos</NavLink>
-					<NavLink to="" onClick={showNavbar}>Quién somos</NavLink>
+					<NavLink to="/AvailableProducts" onClick={showNavbar}>Productos</NavLink>
+					<NavLink to="/AboutUs" onClick={showNavbar}>Quién somos</NavLink>
 					
 			<form action="#">
 				<label>
