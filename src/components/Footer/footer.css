@@ -2,8 +2,9 @@
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 50px 0;
-    height: 200px;
+    height: 300px;
     width: 100%;
+    padding: 3rem;
   }
   
   .footer-container {
@@ -17,8 +18,10 @@
     margin: 0 20px;
   }
   
-  .footer-section h3 {
-    color: #bb2649;
+  .footer-section .footerTitle {
+    color: #F0008E;
+    text-align: start;
+    margin-bottom: 2rem;
   }
   
   .footer-section ul {
@@ -37,6 +40,7 @@
   
   .footer-bottom {
     text-align: center;
-    margin-top: 20px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
   }
   
