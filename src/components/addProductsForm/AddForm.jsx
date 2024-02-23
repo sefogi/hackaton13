@@ -66,7 +66,7 @@ const AddForm = ({ isOpen, onClose }) => {
   }
 
   return (
-    <div className="modal-overlay">
+    <div className="modal_overlay">
       <form
         onSubmit={(e) => {
           handleSubmit(e);

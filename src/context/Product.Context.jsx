@@ -48,7 +48,7 @@ export function ProductProvider({ children }) {
   }, []);
 
   const getProductsById = useCallback(async (idProduct) => {
-    if (idProduct === undefined || idProduct === null || idProduct === "") {
+    if (idProduct === undefined || idProduct === null || idProduct === "https://fakeapi-dusky.vercel.app/product/") {
       return;
     }
     try {
