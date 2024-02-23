@@ -1,16 +1,17 @@
 import { Hero } from "../components/HeroImg/Hero"
 import React from "react";
 import Stack from 'react-bootstrap/Stack';
-import Top5products from "../components/addProductsForm/top5products/Top5products";
+
 import Brands from "../components/brands/Brands.jsx";
 import "./Home.css"
+import GalleryTop from "../components/GalleryTop/GalleryTop.jsx";
 
 export const Home = () => {
     return (
         
         <Stack gap={5} className='homeBody'>
         <Hero/>
-        <Top5products/>
+       <GalleryTop/>
         <br></br>
         <br></br>
         <Brands/>

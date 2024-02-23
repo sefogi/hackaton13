@@ -4,7 +4,7 @@ export const Hero = () => {
     return (
     <>
     <div className='heroHolder'>
-    <button className="btn">Telepórtate</button>
+    <button className="btnTrans">Telepórtate</button>
     </div>
     </>
     )

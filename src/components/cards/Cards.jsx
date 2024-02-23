@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import Card from "../card/Card";
+import MyCard from "../card/Card";
 import "./cards.css";
 
 function ProductCards({ products }) {
@@ -9,7 +9,7 @@ function ProductCards({ products }) {
         {products &&
           products.map((productData) => (
             <li className="productItem" key={productData.id}>
-              <Card product={productData} />
+              <MyCard product={productData} />
             </li>
           ))}
       </ul>

@@ -3,7 +3,7 @@ import "./Card.css";
 import OpenModalForm from "../OpenModalForm";
 import ProductDetails from "../ProductDetails";
 
-const Card = ({ product }) => {
+const MyCard = ({ product }) => {
   const { isModalOpen, openModal, closeModal } = OpenModalForm();
 
   const handlerShow = (event) => {
@@ -36,4 +36,4 @@ const Card = ({ product }) => {
   );
 };
 
-export default Card;
+export default MyCard;

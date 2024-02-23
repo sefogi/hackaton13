@@ -1,0 +1,28 @@
+.verMasBtn{
+	background-color: transparent;
+	color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 145px;
+    height: 39px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px #F0008E;
+    transition: background-color 0.2s, transform 0.2s ease-in-out;
+    text-align: center;
+}
+.verMasBtn:hover {
+   
+    border: 1px solid #190aa5;
+	box-shadow: 0 0 10px #1a17bbc2;
+	color: #F0008E;
+	text-shadow: 2px 2px 4px  #1a17bbc2;
+    transform: scale(1.1);
+
+}
+.titleConteiner{
+    color: #F0008E;
+    text-align: center;
+}
+
