@@ -2,14 +2,14 @@
     margin-top: 200px;
     background-color: #060017;
     border: 1px solid #F0008E;
-    /* margin: 200px auto; */
+    margin: 200px auto;
     border-radius: 10px;
     align-items: center;
     height: 600px;
-    padding: 3rem;
+    padding: 2rem;
 }
 
-.button_payment{
+ .button_payment{
     display:flex;
-}
+} 
 

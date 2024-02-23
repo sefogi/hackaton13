@@ -37,7 +37,7 @@ export function ProductProvider({ children }) {
     try {
       setLoading(true);
       setError(null);
-      const newProducts = await productsList("");
+      const newProducts = await productsList("https://fakeapi-dusky.vercel.app/product/");
 
       setProducts(newProducts);
     } catch (e) {
@@ -48,14 +48,14 @@ export function ProductProvider({ children }) {
   }, []);
 
   const getProductsById = useCallback(async (idProduct) => {
-    if (idProduct === undefined || idProduct === null || idProduct === "") {
+    if (idProduct === undefined || idProduct === null || idProduct === "https://fakeapi-dusky.vercel.app/product/") {
       return;
     }
     try {
       setLoading(true);
       setError(null);
       const newProduct = await productsList(
-        "" + idProduct
+        "https://fakeapi-dusky.vercel.app/product/" + idProduct
       );
       setProductById(newProduct);
     } catch (e) {
