@@ -48,9 +48,7 @@ export const Payment = () => {
                         <Form.Control aria-label="First name" />
                         <Form.Control aria-label="Last name" />
                         </InputGroup>
-                        <Button variant="primary" type="submit">
-        Submit
-      </Button>
+       
                         
                     </Form>
                     
