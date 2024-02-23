@@ -37,7 +37,7 @@ export function ProductProvider({ children }) {
     try {
       setLoading(true);
       setError(null);
-      const newProducts = await productsList("https://fakeapi-dusky.vercel.app/product/");
+      const newProducts = await productsList("");
 
       setProducts(newProducts);
     } catch (e) {
@@ -55,7 +55,7 @@ export function ProductProvider({ children }) {
       setLoading(true);
       setError(null);
       const newProduct = await productsList(
-        "https://fakeapi-dusky.vercel.app/product/" + idProduct
+        "" + idProduct
       );
       setProductById(newProduct);
     } catch (e) {

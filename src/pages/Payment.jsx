@@ -11,7 +11,7 @@ export const Payment = () => {
     return (
         <Container fluid="md"className="payment_Container" >
             
-                <Stack direction="horizontal" gap={3}>
+                <Stack  gap={3}>
                     <Form>
                         <Form.Group className="mb-1">
                             <Form.Label className="text-light">Full Name</Form.Label>
@@ -27,6 +27,7 @@ export const Payment = () => {
                             <Form.Label className="text-light">Address</Form.Label>
                             <Form.Control type="text" placeholder="Enter Address" />
                         </Form.Group>
+                        
                     </Form>
                     <Form>
                         <Form.Group className="mb-2">
@@ -49,12 +50,11 @@ export const Payment = () => {
                         </InputGroup>
                         
                     </Form>
-                </Stack>
-                
                     
-                
+                        
+                    </Stack>
+                    
             
-            <Button variant="primary" type="submit">Submit</Button>
         </Container>
     );
 }

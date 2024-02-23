@@ -5,7 +5,11 @@
     /* margin: 200px auto; */
     border-radius: 10px;
     align-items: center;
-    height: 400px;
+    height: 600px;
     padding: 3rem;
+}
+
+.button_payment{
+    display:flex;
 }
 
