@@ -122,9 +122,9 @@ const EditFormOpen = ({ isOpen, onClose, id }) => {
             id="category"
             onChange={handleChangeCategory}
           >
-            <option value="Sudaderas">Sudaderas</option>
-            <option value="Camisetas">Camisetas</option>
-            <option value="Pantalontes">Pantalontes</option>
+            <option value="Moon Water">Moon Water</option>
+            <option value="Moon dust">Moon Dust</option>
+            <option value="Moon magic rocks">Moon Magic Rocks</option>
           </select>
         </div>
         <div>
